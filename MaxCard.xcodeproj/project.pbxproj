@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510660B22529D8B100967082 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 510660B12529D8B100967082 /* Pacifico-Regular.ttf */; };
+		517A20502529F9E200DD4F33 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A204F2529F9E200DD4F33 /* InfoView.swift */; };
 		519FFB32251B8D8800CFC152 /* MaxCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FFB31251B8D8800CFC152 /* MaxCardApp.swift */; };
 		519FFB34251B8D8800CFC152 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FFB33251B8D8800CFC152 /* ContentView.swift */; };
 		519FFB36251B8D8900CFC152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519FFB35251B8D8900CFC152 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510660B12529D8B100967082 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		517A204F2529F9E200DD4F33 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		519FFB2E251B8D8800CFC152 /* MaxCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519FFB31251B8D8800CFC152 /* MaxCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCardApp.swift; sourceTree = "<group>"; };
 		519FFB33251B8D8800CFC152 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		510660B02529D81700967082 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				510660B12529D8B100967082 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		519FFB25251B8D8800CFC152 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +64,10 @@
 		519FFB30251B8D8800CFC152 /* MaxCard */ = {
 			isa = PBXGroup;
 			children = (
+				510660B02529D81700967082 /* fonts */,
 				519FFB31251B8D8800CFC152 /* MaxCardApp.swift */,
 				519FFB33251B8D8800CFC152 /* ContentView.swift */,
+				517A204F2529F9E200DD4F33 /* InfoView.swift */,
 				519FFB35251B8D8900CFC152 /* Assets.xcassets */,
 				519FFB3A251B8D8900CFC152 /* Info.plist */,
 				519FFB37251B8D8900CFC152 /* Preview Content */,
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510660B22529D8B100967082 /* Pacifico-Regular.ttf in Resources */,
 				519FFB39251B8D8900CFC152 /* Preview Assets.xcassets in Resources */,
 				519FFB36251B8D8900CFC152 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				519FFB34251B8D8800CFC152 /* ContentView.swift in Sources */,
+				517A20502529F9E200DD4F33 /* InfoView.swift in Sources */,
 				519FFB32251B8D8800CFC152 /* MaxCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
